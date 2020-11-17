@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_book"
+            android:icon="@drawable/ic_format_list"
+            android:title="@string/directory" />
+        <item
+            android:id="@+id/nav_list"
+            android:icon="@drawable/ic_assignment_black_24dp"
+            android:title="@string/item_list" />
+        <item
+            android:id="@+id/nav_compass"
+            android:icon="@drawable/ic_explore_black_24dp"
+            android:title="@string/compass" />
+        <item
+            android:id="@+id/nav_timer"
+            android:icon="@drawable/ic_timer_24dp"
+            android:title="@string/timer" />
+        <item
+            android:id="@+id/nav_flashlight"
+            android:icon="@drawable/ic_highlight_black_24dp"
+            android:title="@string/flash_light" />
+    </group>
+
+    <item android:title="@string/communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_camera_alt_black_24dp"
+                android:title="@string/instagram" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share_black_24dp"
+                android:title="@string/share" />
+        </menu>
+    </item>
+
+</menu>

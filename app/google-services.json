@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "622847924455",
+    "firebase_url": "https://hiking-app-e1fb8.firebaseio.com",
+    "project_id": "hiking-app-e1fb8",
+    "storage_bucket": "hiking-app-e1fb8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:622847924455:android:ad40dcc51c5a324663aa42",
+        "android_client_info": {
+          "package_name": "com.my.admin.tourist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "622847924455-q03b8jb3bi088okp67c9m19ntn63lu9p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeiGdZ-WW0-IJHpGIKghRe6lwYo-CGSpA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "622847924455-q03b8jb3bi088okp67c9m19ntn63lu9p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.my.admin.tourist.Timer">
+
+    <Chronometer
+        android:id="@+id/chronometer1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/start_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="70dp"
+        android:textSize="70sp" />
+
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/pause_button"
+        android:layout_centerVertical="true"
+        android:background="@drawable/rounded_red_border"
+        android:text="@string/start"
+        android:textColor="@color/buttonColor" />
+
+    <Button
+        android:id="@+id/pause_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/start_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/rounded_red_border"
+        android:text="@string/stop"
+        android:textColor="@color/buttonColor" />
+
+    <Button
+        android:id="@+id/reset_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/pause_button"
+        android:layout_below="@+id/pause_button"
+        android:layout_marginTop="21dp"
+        android:background="@drawable/rounded_red_border"
+        android:text="@string/reset"
+        android:textColor="@color/buttonColor" />
+
+</RelativeLayout>
